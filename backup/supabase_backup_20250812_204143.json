@@ -1,0 +1,107 @@
+{
+  "users": [],
+  "events": [],
+  "attendance": [],
+  "media_content": [],
+  "posts": [],
+  "comments": [],
+  "routines": [],
+  "ai_conversations": [],
+  "security_logs": [],
+  "system_settings": [
+    {
+      "id": 1,
+      "setting_key": "backup_retention_days",
+      "setting_value": "30",
+      "description": "Número de dias para manter backups",
+      "updated_by": null,
+      "updated_at": "2025-08-12T23:31:17.419071+00:00"
+    },
+    {
+      "id": 2,
+      "setting_key": "log_retention_days",
+      "setting_value": "90",
+      "description": "Número de dias para manter logs de segurança",
+      "updated_by": null,
+      "updated_at": "2025-08-12T23:31:17.419071+00:00"
+    },
+    {
+      "id": 3,
+      "setting_key": "performance_log_retention_days",
+      "setting_value": "30",
+      "description": "Número de dias para manter logs de performance",
+      "updated_by": null,
+      "updated_at": "2025-08-12T23:31:17.419071+00:00"
+    },
+    {
+      "id": 4,
+      "setting_key": "max_login_attempts",
+      "setting_value": "5",
+      "description": "Número máximo de tentativas de login",
+      "updated_by": null,
+      "updated_at": "2025-08-12T23:31:17.419071+00:00"
+    },
+    {
+      "id": 5,
+      "setting_key": "login_attempt_window_minutes",
+      "setting_value": "15",
+      "description": "Janela de tempo para tentativas de login (minutos)",
+      "updated_by": null,
+      "updated_at": "2025-08-12T23:31:17.419071+00:00"
+    },
+    {
+      "id": 6,
+      "setting_key": "session_timeout_hours",
+      "setting_value": "24",
+      "description": "Tempo limite da sessão (horas)",
+      "updated_by": null,
+      "updated_at": "2025-08-12T23:31:17.419071+00:00"
+    },
+    {
+      "id": 7,
+      "setting_key": "enable_performance_monitoring",
+      "setting_value": "true",
+      "description": "Habilitar monitoramento de performance",
+      "updated_by": null,
+      "updated_at": "2025-08-12T23:31:17.419071+00:00"
+    },
+    {
+      "id": 8,
+      "setting_key": "enable_security_logging",
+      "setting_value": "true",
+      "description": "Habilitar logs de segurança",
+      "updated_by": null,
+      "updated_at": "2025-08-12T23:31:17.419071+00:00"
+    },
+    {
+      "id": 9,
+      "setting_key": "maintenance_mode",
+      "setting_value": "false",
+      "description": "Modo de manutenção",
+      "updated_by": null,
+      "updated_at": "2025-08-12T23:31:17.419071+00:00"
+    },
+    {
+      "id": 10,
+      "setting_key": "system_name",
+      "setting_value": "Mídia Church",
+      "description": "Nome do sistema",
+      "updated_by": null,
+      "updated_at": "2025-08-12T23:31:17.419071+00:00"
+    },
+    {
+      "id": 11,
+      "setting_key": "system_version",
+      "setting_value": "2.0.0",
+      "description": "Versão do sistema",
+      "updated_by": null,
+      "updated_at": "2025-08-12T23:31:17.419071+00:00"
+    }
+  ],
+  "messages": [],
+  "meeting_reports": [],
+  "report_templates": [],
+  "performance_logs": [],
+  "system_notifications": [],
+  "audit_log": []
+}

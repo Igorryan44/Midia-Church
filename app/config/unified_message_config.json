@@ -1,0 +1,82 @@
+{
+  "unified_message_system": {
+    "version": "2.0",
+    "services": {
+      "whatsapp": {
+        "enabled": true,
+        "config": {
+          "primary_method": "whatsapp_web_js",
+          "fallback_method": "pywhatkit",
+          "session_path": "./whatsapp_sessions",
+          "auto_reconnect": true,
+          "max_reconnect_attempts": 5,
+          "reconnect_delay": 30,
+          "message_delay": 2,
+          "max_messages_per_minute": 20,
+          "timeout": 60,
+          "headless": false,
+          "debug": true
+        }
+      },
+      "email": {
+        "enabled": true,
+        "config": {}
+      }
+    },
+    "message_types": {
+      "text": "text",
+      "image": "image",
+      "video": "video",
+      "audio": "audio",
+      "document": "document",
+      "location": "location",
+      "contact": "contact",
+      "sticker": "sticker"
+    },
+    "templates": {
+      "welcome": {
+        "name": "boas_vindas",
+        "content": "🙏 Olá {nome}! Bem-vindo(a) à nossa igreja. Que Deus abençoe sua jornada conosco!",
+        "variables": [
+          "nome"
+        ],
+        "category": "welcome"
+      },
+      "event_reminder": {
+        "name": "lembrete_evento",
+        "content": "📅 Lembrete: {evento} será em {data} às {horario}. Não perca! 🙏",
+        "variables": [
+          "evento",
+          "data",
+          "horario"
+        ],
+        "category": "reminder"
+      },
+      "birthday": {
+        "name": "aniversario",
+        "content": "🎉 Feliz aniversário, {nome}! 🎂 Que Deus abençoe este novo ano de vida!",
+        "variables": [
+          "nome"
+        ],
+        "category": "birthday"
+      },
+      "prayer_request": {
+        "name": "pedido_oracao",
+        "content": "🙏 Recebemos seu pedido de oração por {motivo}. Nossa equipe estará orando. Deus te abençoe!",
+        "variables": [
+          "motivo"
+        ],
+        "category": "prayer"
+      },
+      "donation_thanks": {
+        "name": "agradecimento_doacao",
+        "content": "💝 Obrigado pela sua doação de R$ {valor}! Sua generosidade faz a diferença no Reino de Deus.",
+        "variables": [
+          "valor"
+        ],
+        "category": "donation"
+      }
+    },
+    "migrated_at": "2025-08-07T21:11:28.185967"
+  }
+}
