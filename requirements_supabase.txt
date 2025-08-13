@@ -1,27 +1,37 @@
-# Dependências para migração Supabase - Mídia Church
+# Dependências específicas para Supabase - Mídia Church
+# Este arquivo contém apenas as dependências mínimas necessárias para Supabase
+# Para instalação completa, use requirements.txt
 
-# Dependências existentes
-streamlit>=1.28.0
-pandas>=1.5.0
-plotly>=5.15.0
-python-dotenv>=1.0.0
-bcrypt>=4.0.0
+# Core Supabase
+supabase>=2.3.0
+postgrest>=0.10.0
+psycopg2-binary>=2.9.0
+
+# Database & ORM
 sqlalchemy>=2.0.0
-Pillow>=10.0.0
+alembic>=1.13.0
+
+# Environment & Configuration
+python-dotenv>=1.0.0
+
+# Authentication & Security
+bcrypt>=4.1.0
+
+# HTTP & API
 requests>=2.31.0
+
+# Data Processing (minimal)
+pandas>=2.1.0
+
+# Utilities for migration
+tqdm>=4.65.0
+click>=8.1.0
+
+# Email validation
 email-validator>=2.0.0
 
-# Novas dependências para Supabase
-supabase>=2.0.0
-psycopg2-binary>=2.9.0
-postgrest>=0.10.0
-
-# Dependências opcionais para desenvolvimento
+# Development tools (optional)
 pytest>=7.0.0
 pytest-asyncio>=0.21.0
 black>=23.0.0
 flake8>=6.0.0
-
-# Dependências para backup e migração
-tqdm>=4.65.0
-click>=8.1.0
